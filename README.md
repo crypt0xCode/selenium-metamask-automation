@@ -5,8 +5,8 @@
 1. Clone repository: `git clone https://github.com/crypt0xCode/selenium-metamask-automation`
 2. Optionally uprade python pip: `python -m pip install --upgrade pip`
 3. Download requires modules: `pip3 install -r requirements.txt`
-4. Compress MetaMask extension into .crx and .pem files.
-5. Fill the **MTM_PATH** (path to the MetaMask extension file) constant in `config.py` file. For example, in Linux this constant has value: `/home/<username>/.config/google-chrome/Default/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/12.3.0_0.crx`
+4. Compress MetaMask extension into .crx and .pem files (check instructions in the Internet).
+5. Fill the **MTM_PATH** (path to the MetaMask extension file) constant in `config.py` file. For example, in Linux this constant has value: `/home/<username>/.config/google-chrome/Default/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/12.3.0_0.crx`. For Windows/Mac check MTM extension path in the Internet.
 6. Fill the `test-mtm-wallet.json` file from your test MetaMask wallet.
 
 ## Mission of project/Цель проекта
